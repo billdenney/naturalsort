@@ -4,7 +4,8 @@
 \alias{naturalfactor}
 \title{Natural Ordering Factor}
 \usage{
-naturalfactor(x, levels, ordered = TRUE, ...)
+naturalfactor(x, levels, ordered = TRUE, interpretation = c("natural",
+  "integer", "real", "scientific"), ...)
 }
 \arguments{
 \item{x}{a character vector.}
@@ -12,6 +13,8 @@ naturalfactor(x, levels, ordered = TRUE, ...)
 \item{levels}{a character vector whose elements might be appeared in \code{x}.}
 
 \item{ordered}{logical flag that determines whether the factor is ordered.}
+
+\item{interpretation}{Passed to \code{\link{naturalorder}}}
 
 \item{...}{arguments that are passed to \code{factor} function.}
 }

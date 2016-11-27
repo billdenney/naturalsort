@@ -1,7 +1,7 @@
 Package: naturalsort
 Type: Package
 Title: Natural Ordering
-Version: 0.1.4
+Version: 0.2.0
 Suggests:
     testthat
 Date: 2016-11-26
@@ -16,7 +16,8 @@ Description: Provides functions related to human natural ordering.  It
     a-2.png, a-10.png looks naturally ordered because 1 < 2 < 10 and
     natural sort algorithm arranges so whereas general sort algorithms
     arrange it into a-1.png, a-10.png, a-2.png owing to their third
-    and fourth characters.
+    and fourth characters.  The package can work with natural numbers,
+    integers, real numbers, and scientific notation.
 License: BSD_3_clause + file LICENSE
 BugReports: https://github.com/kos59125/naturalsort/issues
 RoxygenNote: 5.0.1
